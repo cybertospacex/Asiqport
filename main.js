@@ -28,20 +28,20 @@ let clipNames = [
 ];
 let projects = [
   {
-    image: 'textures/project-spaze.webp',
-    url: 'https://www.spaze.social/',
+    image: 'textures/project-spaze.jpg',
+   // url: '',
   },
   {
     image: 'textures/project-myteachers.jpg',
-    url: 'https://myteachers.com.au/',
+    //url: '',
   },
   {
     image: 'textures/project-wholesale.jpg',
-    url: 'https://wholesale.com.np/',
+    //url: '',
   },
   {
     image: 'textures/project-pelotero.jpg',
-    url: 'https://www.peloterosenlaweb.com/',
+    //url: '',
   },
 ];
 let aboutCameraPos = {
@@ -317,7 +317,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0x171f27, flatShading: true }),
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
-    const titleGeo = new TextGeometry('SUSHIL THAPA', {
+    const titleGeo = new TextGeometry('Asiq Rahman A', {
       font: font,
       size: 0.08,
       height: 0.01,
@@ -334,7 +334,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
     const subTitleGeo = new TextGeometry(
-      'Web Designer / Developer / Content Creator',
+      'Software Engineer | Networking | Python | Technical Support Engineer',
       {
         font: font,
         size: 0.018,
